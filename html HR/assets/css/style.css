@@ -1,0 +1,253 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.barra-topo{
+	background-color: #3701fc;
+	height: 10px;
+}
+
+.container {
+	
+	flex-direction: coumn;
+	min-height: 100vh;
+}
+
+header {
+	background-color: rgb(58, 5, 156);
+	color: #fff;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 2;
+	padding: 2;
+	display:flex;
+	align-items: center;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration:solid;
+	font-weight:bold;
+	font-size: 25px;
+	transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+	color: rgb(0, 0, 0);
+}
+
+.banner{
+  padding: 20px;
+	text-align: center;
+}
+
+.produtos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 40px;
+  }
+
+.produtos img {
+  max-width: 100%;
+  max-height: 200px;
+  margin-bottom: 20px;
+  }
+  
+.produtos h3 {
+margin-bottom: 10px;
+font-size: 14px;
+}
+
+.produtos article {
+  width: calc(25% - 20px);
+  margin-bottom: 40px;
+  text-align: center;
+
+  }
+
+  .produtos p {
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 1.5;
+    }
+    
+    .produtos .preco {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3701fc;
+    margin-bottom: 20px;
+    }
+    
+    .produtos button {
+    background-color: #3701fc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    }
+    
+    .produtos button:hover {
+    background-color: #3701fc;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+
+
+
+
+
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline-block;
+      position: relative;
+    }
+    
+    nav ul li a {
+      display: block;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+    }
+    
+    nav ul li ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: rgb(58, 5, 156);
+      padding: 0;
+      z-index: 1;
+    }
+    
+    nav ul li:hover > ul {
+      display: block;
+    }
+    
+    nav ul li ul li {
+      display: block;
+    }
+    
+    nav ul li ul li a {
+      padding: 10px 20px;
+      color: rgb(0, 0, 0);
+    }
+    
+    nav ul li ul li a:hover {
+      background-color: rgb(58, 5, 156);
+    }
+
+    .bannerautor{
+      padding: 20px;
+      text-align: center;
+    }
+
+    .bannerdetalhe{
+      padding: 20px;
+      text-align: center;
+    }
+
+    .banneradm{
+      padding: 20px;
+      text-align: center;
+    }
+
+    .bannerprod{
+      padding: 20px;
+      text-align: center;
+    }
+
+    .bannerusu{
+      padding: 20px;
+      text-align: center;
+    }
+
+    .boton {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 300px; 
+      margin: 0 auto; 
+    }
+
+    .boton li {
+      list-style: none;
+    }
+    
+    .boton li a {
+      display: block;
+      padding: 10px 20px;
+      text-decoration: none;
+      background-color: #f2f2f2;
+      color: #333;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    .boton li a:hover {
+      background-color: #ddd;
+    }
+    
+    .boton li:first-child a {
+      margin-right: 10px; 
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    thead th {
+      background-color: #f2f2f2;
+      color: #333;
+      text-align: left;
+      padding: 8px;
+      border-bottom: 1px solid #ccc;
+    }
+    
+    tbody td {
+      padding: 8px;
+      border-bottom: 1px solid #ccc;
+    }
+    
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+    
+    button {
+      padding: 6px 12px;
+      background-color: #f2f2f2;
+      color: #333;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    button:hover {
+      background-color: #ddd;
+    }

@@ -48,13 +48,53 @@
       </nav>
     </header>
     <main>
-      <section class="bannerautor">
-        <h2>SOBRE O AUTOR</h2>
-        <article>
-          <H3>Higo Rhael Moreira Nogueira</H3>
-          <p>Meu nome é Higo, tenho 18 anos. Sou técnico em comércio pelo ifce e estou vendendo basqueteiras</p>
-        </article>
+      <section class="bannerusu">
+        <h2>Cadastro de Usuario</h2>
+        <form>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required><br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br><br>
+
+          <label for="senha">Senha:</label>
+          <input type="password" id="senha" name="senha" required><br><br>
+
+          <input type="submit" value="Cadastrar">
       </section>
+      <table>
+
+        <tr>
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Ações</th>
+        </tr>
+        <tr>
+          <td>João</td>
+          <td>joao@gmail.com</td>
+          <td>
+            <button>Editar</button>
+            <button>Apagar</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Marcos</td>
+          <td>marcos@gmail.com</td>
+          <td>
+            <button>Editar</button>
+            <button>Apagar</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Raul</td>
+          <td>raul@gmail.com</td>
+          <td>
+            <button>Editar</button>
+            <button>Apagar</button>
+          </td>
+        </tr>
+      </table>
+
     </main>
     <footer>
       <p>Higo Rhael</p>
